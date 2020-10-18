@@ -1,0 +1,38 @@
+{
+  "name": "news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "goodnews": "index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "commander": "^6.1.0",
+    "console-menu": "^0.1.0",
+    "gnews": "^1.0.3",
+    "inquirer": "^7.3.3",
+    "ora": "^5.1.0",
+    "shelljs": "^0.8.4",
+    "rss-parser": "^3.9.0",
+    "terminal-link": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shalomfriss/GoodBetterNews.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shalomfriss/GoodBetterNews/issues"
+  },
+  "homepage": "https://github.com/shalomfriss/GoodBetterNews#readme"
+}

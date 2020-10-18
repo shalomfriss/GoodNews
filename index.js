@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 //Kudos: https://github.com/DatanewsOrg/google-news-js
 //https://github.com/sindresorhus/terminal-link
 const Parser        = require('rss-parser');
