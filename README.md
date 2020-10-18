@@ -1,1 +1,1 @@
-# GoodBetterNews
+# GoodNews
