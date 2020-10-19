@@ -7,7 +7,7 @@ const shell         = require("shelljs");
 const program       = require("commander");
 const chalk         = require("chalk");
 const boxen         = require("boxen");
-
+const { showHeadlines } = require('./lib/search');
 
 const { runPrompt, TOPICS } = require('./lib/questions');
 
@@ -19,8 +19,8 @@ const SEARCH_RSS    = 'https://news.google.com/rss/search?q=';
 
 program.version('1.0.0');
 program.option('-n, --headlines <num>', 'Show top n headlines');
-program.option('-t, --topic <topic> <result_number>', 'Show a topic');
-program.option('-l, --list', 'Show a list of topics');
+//program.option('-t, --topic <topic>', 'Show a topic');
+//program.option('-l, --list', 'Show a list of topics');
 program.parse(process.argv);
 
 if(program.headlines) {
