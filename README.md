@@ -1,11 +1,10 @@
-# GoodNews
-
 <h1 align="center">
   <br>
 	<img width=480 src="logo.png" alt="goodnews">
 	<br>
   <br>
 </h1>
+
 
 To install run 
 ```
